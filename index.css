@@ -1,0 +1,29 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border: 15px solid rgb(64, 6, 6);
+    color: white;
+}
+.flex-container{
+    border: 5px solid rgb(64, 6, 6);
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.flex-item.one {
+    background-color: blue;
+}
+.flex-item.two {
+    background-color: green;
+}
+.flex-item.three {
+    background-color: yellow;
+}
+.flex-item.four {
+    background-color:purple;
+}
+.flex-item.five {
+    background-color: red;
+    
+}
